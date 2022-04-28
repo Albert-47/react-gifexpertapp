@@ -1,0 +1,44 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-shadow: 0 0 5px  rgb(5, 49, 105);
+}
+
+body {
+    padding: 60px;
+    background: linear-gradient(to right, rgb(31, 160, 192), rgb(197, 31, 197));
+}
+
+input {
+    width: 100%;
+    font-size: 12px;
+    color:darkred;
+}
+
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 2em;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    background-color: rgb(229, 212, 190);
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+i {
+    text-shadow: 0 0 5px white;
+}
